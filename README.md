@@ -13,6 +13,7 @@
 </script>
 ```
 这样您就有了一个十分简朴的跳转器，实现基本功能。
+
 ![图1](https://tikolu.net/i/ftxqe)
 详细见“跳转器”
 
@@ -30,6 +31,7 @@ KLPTID-PROJECT 有4个版本的跳转器，可见下表格：
 
 同时，您也可以自定义CSS来美化，下面就是一个示例：
 体验网址：[点我](https://klp-xkjt.github.io/KLPTIDJS/)
+![图2](https://tikolu.net/i/cbtfz) [其CSS](https://github.com/klp-xkjt/klp-xkjt.github.io/blob/main/KLPTIDJS/index.html)
 ![图2](https://tikolu.net/i/cbtfz)
 
 ## 开源协议
