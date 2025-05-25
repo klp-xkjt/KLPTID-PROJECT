@@ -29,6 +29,7 @@ KLPTID-PROJECT 有4个版本的跳转器，可见下表格：
 > v1.0.0: 一种只能创建一个跳转器，后版本将会修复。
 
 同时，您也可以自定义CSS来美化，下面就是一个示例：
+体验网址：[点我](https://klp-xkjt.github.io/KLPTIDJS/)
 ![图2](https://tikolu.net/i/cbtfz)
 
 ## 开源协议
