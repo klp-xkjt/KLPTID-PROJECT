@@ -30,9 +30,8 @@ KLPTID-PROJECT 有4个版本的跳转器，可见下表格：
 > v1.0.0: 一种只能创建一个跳转器，后版本将会修复。
 
 同时，您也可以自定义CSS来美化，下面就是一个示例：
-体验网址：[点我](https://klp-xkjt.github.io/KLPTIDJS/)
-![图2](https://tikolu.net/i/cbtfz) [其CSS](https://github.com/klp-xkjt/klp-xkjt.github.io/blob/main/KLPTIDJS/index.html)
-![图2](https://tikolu.net/i/cbtfz)
+体验网址：[点我](https://klp-xkjt.github.io/KLPTIDJS/) [其CSS](https://github.com/klp-xkjt/klp-xkjt.github.io/blob/main/KLPTIDJS/index.html)
+![图2](https://tikolu.net/i/cbtfz) 
 
 ## 开源协议
 本项目使用MIT协议，见本仓库License。
