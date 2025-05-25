@@ -4,7 +4,7 @@
 ## 使用方法
 1. 在您的HTML文件引入此 JavaScript 代码，推荐在写在**body**中。
 ```html
-<script src="index.js"></script> //请使用您自己的地址
+<script src="KLPTID.js"></script> //请使用您自己的地址
 ```
 2. 在您的HTML文件中，在**body**中写入：
 ```html
