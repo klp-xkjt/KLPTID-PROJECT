@@ -47,6 +47,20 @@
 
 ## 样式定制
 
+下面是各转换器内输入框、跳转按钮等元素的类名，可用于CSS定义：
+
+| 跳转器名称      | 容器类 (CSS Class)   | 输入框ID (Input) | 按钮ID (Button) | 模式切换器ID (Mode Switcher) |
+|-----------------|----------------------|------------------|-----------------|------------------------------|
+| TIDSKIPPER1     | `tid-skipper-v1`     | `skip-input1`    | `skip-button1`  | N/A                          |
+| TIDSKIPPER2     | `tid-skipper-v2`     | `skip-input2`    | `skip-button2`  | `mode-switcher2`             |
+| USERSKIPPER1    | `user-skipper-v1`    | `skip-input3`    | `skip-button3`  | N/A                          |
+| USERSKIPPER2    | `user-skipper-v2`    | `skip-input4`    | `skip-button4`  | `mode-switcher4`             |
+
+```css
+// 示例
+
+```
+
 ## 协议声明
 本项目采用 [MIT License](LICENSE) 开源协议，您可以自由地进行：
 - 商业使用 
