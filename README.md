@@ -22,11 +22,11 @@
 2. 初始化跳转控制器：
 ```html
 <script>
-  // 选择需要的跳转器类型（四选一）
-  const skipper = new TIDSKIPPER1(); // 帖子直接跳转
-  // const skipper = new TIDSKIPPER2(); // 帖子浏览模式跳转
-  // const skipper = new USERSKIPPER1(); // 用户空间直接跳转
-  // const skipper = new USERSKIPPER2(); // 用户空间浏览模式跳转
+  // 选择需要的跳转器类型，可同时选择多个，每个跳转器初始化的命名都不一致。
+  const skipper1 = new TIDSKIPPER1(); // 帖子直接跳转
+  // const skipper2 = new TIDSKIPPER2(); // 帖子浏览模式跳转
+  // const skipper3 = new USERSKIPPER1(); // 用户空间直接跳转
+  // const skipper4 = new USERSKIPPER2(); // 用户空间浏览模式跳转
 </script>
 ```
 
