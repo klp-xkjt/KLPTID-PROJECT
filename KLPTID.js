@@ -75,7 +75,7 @@ const ELEMENT_CLASS_NAMES = {
         MODE_SWITCHER: 'mode-switcher2'
     },
     USERSKIPPER1: {
-        CONTAINER: 'user-skipper-v2',
+        CONTAINER: 'user-skipper-v1',
         INPUT: 'skip-input3',
         BUTTON: 'skip-button3'
     },
