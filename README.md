@@ -58,7 +58,18 @@
 
 ```css
 // 示例
-
+.tid-skipper-v1,
+.tid-skipper-v2,
+.user-skipper-v1,
+.user-skipper-v2 {
+    width: 90%;
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 ```
 
 ## 协议声明
