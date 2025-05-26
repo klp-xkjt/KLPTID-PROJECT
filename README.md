@@ -1,40 +1,57 @@
-# KLPTID-PROJECT
-一个通过帖子TID、用户UID等值快速跳转对应帖子、用户空间等工具，适用于KLPBBS等Dz论坛。
+# KLPTID-PROJECT 
 
-## 使用方法
-1. 在您的HTML文件引入此 JavaScript 代码，推荐在写在**body**中。
+[![GitHub stars](https://img.shields.io/github/stars/klp-xkjt/KLPTID-PROJECT?style=for-the-badge)](https://github.com/klp-xkjt/KLPTID-PROJECT/stargazers)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+论坛快捷跳转工具，通过帖子TID和用户UID等实现快速页面跳转，适配KLPBBS等Discuz论坛系统。
+
+## 功能特性
+- 零依赖纯JavaScript实现
+- 双模式跳转（直接跳转/浏览模式选择）
+- 支持帖子与用户空间跳转
+- 高度可定制化样式
+- 跨平台兼容性
+
+## 快速开始
+### 基础集成
+1. 在HTML文件的`<body>`末尾添加脚本引用：
 ```html
-<script src="KLPTID.js"></script> //请使用您自己的地址
+<script src="path/to/KLPTID.js"></script>
 ```
-2. 在您的HTML文件中，在**body**中写入：
+
+2. 初始化跳转控制器：
 ```html
 <script>
-    const skipper = new TIDSKIPPER1();
+  // 选择需要的跳转器类型（四选一）
+  const skipper = new TIDSKIPPER1(); // 帖子直接跳转
+  // const skipper = new TIDSKIPPER2(); // 帖子浏览模式跳转
+  // const skipper = new USERSKIPPER1(); // 用户空间直接跳转
+  // const skipper = new USERSKIPPER2(); // 用户空间浏览模式跳转
 </script>
 ```
-这样您就有了一个十分简朴的跳转器，实现基本功能。
 
-![图1](https://tikolu.net/i/ftxqe)
-详细见“跳转器”
+### 效果预览
+![跳转器界面示例](https://tikolu.net/i/ftxqe)  
+*基础跳转器界面*
 
-## 跳转器
-KLPTID-PROJECT 有4个版本的跳转器，可见下表格：
-|跳转器名|用途|加入版本|
-|-------|-------|-------|
-|TidSkipper1|直接跳转对应帖子|v1.0.0|
-|TidSkipper2|选择浏览模式跳转对应帖子|v1.0.0|
-|UserSkipper1|直接跳转对应用户空间|v1.0.0|
-|UserSkipper2|选择浏览模式跳转对应用户空间|v1.0.0|
+![自定义样式示例](https://tikolu.net/i/cbtfz)  
+[体验DEMO](https://klp-xkjt.github.io/KLPTIDJS/) | [样式源码](https://github.com/klp-xkjt/klp-xkjt.github.io/blob/main/KLPTIDJS/index.html)
 
-如果要使用其中一个，只需像使用方法2中new一个跳转器对应的类名(同名)。
-> v1.0.0: 一种只能创建一个跳转器，后版本将会修复。
+## 所有跳转器
+| 组件名称         | 功能描述                     | 跳转模式       | 引入版本 |
+|------------------|----------------------------|---------------|----------|
+| `TidSkipper1`    | 帖子直达跳转                | 直接跳转      | v1.0.0   |
+| `TidSkipper2`    | 带浏览模式的帖子跳转        | 模式选择      | v1.0.0   |
+| `UserSkipper1`   | 用户空间直达跳转            | 直接跳转      | v1.0.0   |
+| `UserSkipper2`   | 带浏览模式的用户空间跳转    | 模式选择      | v1.0.0   |
 
-同时，您也可以自定义CSS来美化，下面就是一个示例：
-体验网址：[点我](https://klp-xkjt.github.io/KLPTIDJS/) [其CSS](https://github.com/klp-xkjt/klp-xkjt.github.io/blob/main/KLPTIDJS/index.html)
-![图2](https://tikolu.net/i/cbtfz) 
+## 样式定制
 
-## 开源协议
-本项目使用MIT协议，见本仓库License。
+## 协议声明
+本项目采用 [MIT License](LICENSE) 开源协议，您可以自由地进行：
+- 商业使用 
+- 修改分发 
+- 专利使用 
+- 私用存储 
 
-## 累积STAR
-![GitHub stars](https://img.shields.io/github/stars/klp-xkjt/KLPTID-PROJECT)
+唯一要求：**保留原始版权声明**
